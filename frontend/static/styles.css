@@ -1,0 +1,511 @@
+body {
+  line-height: 1;
+  text-align: left;
+  text-align: start;
+  position: relative;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background: #fff;
+  border: 0;
+  word-wrap: break-word;
+}
+menu,
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+strong,
+b {
+  font-weight: 500;
+}
+a,
+abbr,
+acronym,
+address,
+applet,
+b,
+big,
+blockquote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  background: transparent;
+}
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+input,
+textarea,
+keygen,
+select,
+button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em 0em 0em 0em;
+  outline: 0;
+}
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+font,
+form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  background: transparent;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+menu,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  background: transparent;
+}
+sup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+tt,
+u,
+ul,
+var {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  background: transparent;
+}
+embed,
+object {
+  position: relative;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial;
+  background: #ececec;
+}
+.central-col-box {
+  margin: 30px auto 30px auto;
+  padding: 0 15px;
+  max-width: 830px;
+  min-width: 530px;
+}
+.central-col {
+  padding: 15px;
+  width: auto;
+  background: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.top-right {
+  float: right;
+}
+.current-data-type-list {
+  padding-top: 20px;
+}
+.typified-current-data-type-form {
+  padding-top: 20px;
+}
+.form__field {
+  position: relative;
+  height: 70px;
+}
+
+.select {
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  box-sizing: border-box;
+  outline: 0;
+  white-space: nowrap;
+  height: 32px;
+  border-radius: 10px;
+  background: #98c5f3;
+}
+.select__caption-icon {
+  display: inline-block;
+  background: center center no-repeat;
+  background-size: 100% 100%;
+  white-space: nowrap;
+  vertical-align: top;
+}
+.select__caption-icon:before {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  content: '▲';
+}
+.select__caption {
+  overflow: hidden;
+  padding: 0 30px 0 20px;
+  user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  font-size: 16px;
+  height: 32px;
+  line-height: 32px;
+}
+.select__options {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 32px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  z-index: 1999999;
+}
+.select__item:last-child {
+  border-radius: 0 0 10px 10px;
+}
+.select__item {
+  width: auto;
+  background: #dfedff;
+  padding: 10px;
+}
+.select__item:hover {
+  background: #ffd8a6;
+}
+.select_closed .select__options {
+  display: none;
+}
+.select_closed .select__caption-icon:before {
+  content: '▼';
+}
+.select__item_selected {
+  background: #dec7ab;
+}
+.select_shown-default .select__selected {
+  display: none;
+}
+.select_shown-selected .select__selected-default {
+  display: none;
+}
+.select_medium {
+  min-width: 150px;
+}
+
+.button {
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  box-sizing: border-box;
+  outline: 0;
+  white-space: nowrap;
+  height: 32px;
+  border-radius: 10px;
+  background: #98c5f3;
+}
+.button__caption {
+  overflow: hidden;
+  padding: 0 20px 0 20px;
+  user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  font-size: 16px;
+  height: 32px;
+  line-height: 32px;
+}
+.button_show .button__caption-hide {
+  display: none;
+}
+.button_hide .button__caption-show {
+  display: none;
+}
+.button_hidden {
+  display: none;
+}
+
+.list {
+  padding: 20px;
+}
+.list_hidden {
+  display: none;
+}
+.list__item_details-closed .list__detail {
+  display: none;
+}
+.list__item {
+  position: relative;
+  font-size: 18px;
+  line-height: 45px;
+  padding-left: 10px;
+}
+.list__item:hover {
+  background: #dfedff;
+}
+.list__detail-button {
+  position: absolute;
+  top: 7px;
+  right: 40px;
+}
+.list__remove-item {
+  position: absolute;
+  cursor: pointer;
+  line-height: 45px;
+  top: 0;
+  right: 10px;
+}
+.list__detail {
+  font-size: 16px;
+  line-height: 25px;
+  padding: 0 10px 20px 10px;
+}
+.list__detail-item-image {
+  display: inline-block;
+  max-width: 120px;
+  vertical-align: top;
+}
+
+.form {
+  padding: 15px;
+}
+.form__field {
+  position: relative;
+  padding-bottom: 10px;
+  height: 70px;
+}
+.form__field_not-valid .form__input,
+.form__field_not-valid .form__textarea,
+.form__field_not-valid .form__add-current-image {
+  border-color: #fd9999;
+  background: #fdcdcd;
+}
+.form__input-caption,
+.form__textarea-caption {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 5px;
+  font-size: 14px;
+}
+.form__textarea-box {
+  height: 100px;
+}
+.form__textarea {
+  position: absolute;
+  resize: none;
+  border-width: 1px 1px 2px 1px;
+  background: #f2f2ff;
+  border-color: #d2d2ff #d2d2ff #555 #d2d2ff;
+  border-style: solid;
+  bottom: 20px;
+  width: 100%;
+  height: 70px;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.form__input {
+  position: absolute;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  border-color: #555;
+  background: #f2f2ff;
+  width: 100%;
+  padding: 0 15px;
+  bottom: 20px;
+  height: 40px;
+  line-height: 30px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.form__add-image {
+  position: relative;
+  height: 130px;
+  width: 120px;
+  cursor: pointer;
+}
+.form__add-image-caption {
+  position: absolute;
+  font-size: 14px;
+  bottom: 3px;
+  left: 40px;
+}
+.form__add-current-image {
+  position: relative;
+  border-width: 0 0 2px 0;
+  border-color: #555;
+  border-style: solid;
+  width: 120px;
+  height: 120px;
+  user-select: none;
+}
+.form__square-figure {
+  position: absolute;
+  z-index: 0;
+  top: 15px;
+  left: 15px;
+  width: 60px;
+  height: 60px;
+  background: #f66;
+}
+.form__cycle-figure {
+  position: absolute;
+  z-index: 0;
+  top: 35px;
+  left: 35px;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background: #6666fd;
+}
+.form__empty-caption {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  top: 30%;
+  display: block;
+  font-size: 55px;
+  font-weight: bold;
+  color: #cdcdcd;
+  text-align: center;
+}
+.form__add-image-item-img {
+  cursor: pointer;
+  width: 90px;
+}
+.form__add-image-item {
+  width: 90px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.form__add-current-image-img {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.form__add-image-item-none {
+  cursor: pointer;
+  text-align: center;
+  line-height: 60px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #777;
+}
+.form__add-image-popup {
+  position: absolute;
+  cursor: default;
+  background: #fff;
+  z-index: 19999999;
+  top: 145px;
+  left: -10px;
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.form__add-image-popup-items {
+  width: 400px;
+  height: 300px;
+  overflow-y: auto;
+}
+.form__add-image_сlosed .form__add-image-popup {
+  display: none;
+}
+.form__add-current-image_choosed .form__empty-caption,
+.form__add-current-image_choosed .form__cycle-figure,
+.form__add-current-image_choosed .form__square-figure {
+  display: none;
+}

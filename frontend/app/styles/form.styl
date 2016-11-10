@@ -1,0 +1,161 @@
+
+.form
+  padding 15px;
+
+.form__field
+  position relative
+  padding-bottom 10px
+  height 70px
+
+.form__field_not-valid
+  .form__input
+  .form__textarea
+  .form__add-current-image
+    border-color #fd9999
+    background #fdcdcd
+
+.form__input-caption
+.form__textarea-caption
+  position absolute
+  width 100%
+  text-align center
+  bottom 5px
+  font-size 14px
+
+.form__textarea-box
+  height 100px
+
+.form__textarea
+  position absolute
+  resize none
+  border-width 1px 1px 2px 1px
+  background #f2f2ff
+  border-color #d2d2ff #d2d2ff #555555 #d2d2ff
+  border-style solid
+  bottom 20px
+  width 100%
+  height 70px
+  font-size 16px
+  line-height 30px
+  padding 0 15px
+  box-sizing border-box
+
+.form__input
+  position: absolute
+  border-style solid
+  border-width 0 0 2px 0
+  border-color #555555
+  background #f2f2ff
+  width 100%
+  padding 0 15px
+  bottom 20px
+  height 40px
+  line-height 30px
+  font-size 16px
+  box-sizing border-box
+
+
+.form__add-image
+  position relative
+  height 130px
+  width 120px
+  cursor pointer
+
+.form__add-image-caption
+  position absolute
+  font-size 14px
+  bottom 3px
+  left 40px
+
+.form__add-current-image
+  position relative
+  border-width 0 0 2px 0
+  border-color #555555
+  border-style solid
+  width 120px
+  height 120px
+  user-select none
+
+.form__square-figure
+  position absolute
+  z-index 0
+  top 15px
+  left 15px
+  width 60px
+  height 60px
+  background #ff6666
+
+.form__cycle-figure
+  position absolute
+  z-index 0
+  top 35px
+  left 35px
+  width 70px
+  height 70px
+  border-radius 35px
+  background #6666fd
+
+.form__empty-caption
+  position absolute
+  z-index 0
+  width 100%
+  top 30%
+  display block
+  font-size 55px
+  font-weight bold
+  color #cdcdcd
+  text-align center
+
+.form__add-image-item-img
+  cursor pointer
+  width 90px
+
+.form__add-image-item
+  width 90px
+  margin-right 10px
+  display inline-block
+  vertical-align bottom
+
+.form__add-current-image-img
+  position absolute
+  z-index 1
+  width 100%
+
+.form__add-image-item-none
+  cursor pointer
+  text-align center
+  line-height 60px
+  font-size 25px
+  font-weight bold
+  color #777777
+
+.form__add-image-popup
+  position absolute
+  cursor default
+  background #ffffff
+  z-index 19999999
+  top 145px
+  left -10px
+  width 400px
+  height 300px
+  padding 20px
+  border-radius 20px
+  box-shadow 0 0 10px rgba(0,0,0,0.5)
+
+.form__add-image-popup-items
+  width 400px
+  height 300px
+  overflow-y auto
+
+.form__add-image_сlosed
+  .form__add-image-popup
+    display none
+
+.form__add-current-image_choosed
+  .form__empty-caption
+  .form__cycle-figure
+  .form__square-figure
+    display none
+
+
+

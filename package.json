@@ -1,0 +1,20 @@
+{
+  "name": "Larixon-Classified-task",
+  "version": "1.0.0",
+  "description": "Todo application",
+  "main": "frontend/index.html",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-wrap": "^0.13.0",
+    "uglifyjs": "^2.4.10"
+  },
+  "dependencies": {},
+  "scripts": {
+    "compile": "gulp styles scripts"
+  }
+}

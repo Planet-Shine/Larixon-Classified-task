@@ -1,0 +1,37 @@
+
+selectHeight = 32px
+
+.button
+  position relative
+  vertical-align top
+  display inline-block
+  cursor pointer
+  user-select none
+  box-sizing border-box
+  outline 0
+  white-space nowrap
+  height selectHeight
+  border-radius 10px
+  background #98c5f3
+
+.button__caption
+  overflow hidden
+  padding 0 20px 0 20px
+  user-select none
+  white-space nowrap;
+  text-overflow ellipsis;
+  max-width 100%
+  font-size 16px
+  height selectHeight
+  line-height selectHeight
+
+.button_show
+  .button__caption-hide
+    display: none
+
+.button_hide
+  .button__caption-show
+    display: none
+
+.button_hidden
+  display none
