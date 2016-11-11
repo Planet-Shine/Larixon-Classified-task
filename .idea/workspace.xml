@@ -6,63 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45fe7ddb-e388-4061-b040-3ff549eea0f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Larixon Classified task.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Larixon_Classified_task_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/app-wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/EventEmitter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/components/Button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/components/DetailedList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/components/DisplayButton.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/components/Select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/components/UniversalForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/data-types/contacts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/data-types/data-types-hash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/data-types/data-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/data-types/deals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/data-types/events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/data-types/images.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/data-types/persons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/develop-defines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/dom-interface.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/initializing-data/contacts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/initializing-data/deals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/initializing-data/events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/initializing-data/initializing-data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/initializing-data/persons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/models/Model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/models/TypifiedItemModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/models/TypifiedListModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/modernizr-toutchevents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/type-hash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/types/AvatarURI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/types/Date.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/types/Email.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/types/Integer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/types/LongString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/types/MediumString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/types/Person.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/types/Phone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/types/Text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/js/types/Time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/styles/button.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/styles/detailed-list.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/styles/form.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/styles/page.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/styles/reset-css.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/app/styles/select.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/dev-index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/static/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/static/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/js/components/UniversalForm.js" afterPath="$PROJECT_DIR$/frontend/app/js/components/UniversalForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/js/types/AvatarURI.js" afterPath="$PROJECT_DIR$/frontend/app/js/types/AvatarURI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dev-index.html" afterPath="$PROJECT_DIR$/frontend/dev-index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/index.html" afterPath="$PROJECT_DIR$/frontend/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/static/app.js" afterPath="$PROJECT_DIR$/frontend/static/app.js" />
     </list>
     <ignored path="Larixon Classified task.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,31 +32,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/index.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="58">
+              <caret line="113" column="44" selection-start-line="113" selection-start-column="44" selection-end-line="113" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="AvatarURI.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/app/js/types/AvatarURI.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="197">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dev-index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/dev-index.html">
+      <file leaf-file-name="UniversalForm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/app/js/components/UniversalForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="138">
+              <caret line="243" column="34" selection-start-line="243" selection-start-column="34" selection-end-line="243" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -158,20 +107,20 @@
         <option value="$PROJECT_DIR$/frontend/app/js/types/Date.js" />
         <option value="$PROJECT_DIR$/frontend/app/js/models/TypifiedListModel.js" />
         <option value="$PROJECT_DIR$/frontend/app/styles/button.styl" />
-        <option value="$PROJECT_DIR$/frontend/index.html" />
         <option value="$PROJECT_DIR$/frontend/static/app.js" />
-        <option value="$PROJECT_DIR$/frontend/app/js/types/AvatarURI.js" />
         <option value="$PROJECT_DIR$/frontend/app/js/EventEmitter.js" />
         <option value="$PROJECT_DIR$/frontend/app/js/event-adapter.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/frontend/dev-index.html" />
         <option value="$PROJECT_DIR$/frontend/app/js/components/Button.js" />
         <option value="$PROJECT_DIR$/frontend/app/js/components/DetailedList.js" />
         <option value="$PROJECT_DIR$/frontend/app/js/components/DisplayButton.js" />
-        <option value="$PROJECT_DIR$/frontend/app/js/app.js" />
         <option value="$PROJECT_DIR$/frontend/app/js/dom-interface.js" />
-        <option value="$PROJECT_DIR$/frontend/app/js/components/UniversalForm.js" />
         <option value="$PROJECT_DIR$/frontend/app/js/components/Select.js" />
+        <option value="$PROJECT_DIR$/frontend/index.html" />
+        <option value="$PROJECT_DIR$/frontend/dev-index.html" />
+        <option value="$PROJECT_DIR$/frontend/app/js/components/UniversalForm.js" />
+        <option value="$PROJECT_DIR$/frontend/app/js/app.js" />
+        <option value="$PROJECT_DIR$/frontend/app/js/types/AvatarURI.js" />
       </list>
     </option>
   </component>
@@ -181,9 +130,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1311" />
+    <option name="x" value="813" />
+    <option name="y" value="390" />
     <option name="width" value="1249" />
-    <option name="height" value="1440" />
+    <option name="height" value="891" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -211,6 +161,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -219,23 +170,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Larixon-Classified-task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Larixon-Classified-task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Decode LLC task" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="F:\Program Files\node.exe" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -324,33 +264,36 @@
       <workItem from="1478639537234" duration="305000" />
       <workItem from="1478682918102" duration="25394000" />
       <workItem from="1478766588407" duration="23725000" />
-      <workItem from="1478801744917" duration="540000" />
+      <workItem from="1478801744917" duration="1670000" />
+      <workItem from="1478804670566" duration="1563000" />
+      <workItem from="1478807715961" duration="13000" />
+      <workItem from="1478849440721" duration="965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114359000" />
+    <option name="totallyTimeSpent" value="118030000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1311" y="0" width="1249" height="1440" extended-state="0" />
-    <editor active="false" />
+    <frame x="813" y="390" width="1249" height="891" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27910817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20891824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23157895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2003058" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4118421" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4461421" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -664,16 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/app/js/models/Model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -695,20 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/js/types/AvatarURI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/js/components/UniversalForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/app/js/models/TypifiedItemModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -723,26 +642,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/dev-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/frontend/app/js/components/UniversalForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="138">
+          <caret line="243" column="34" selection-start-line="243" selection-start-column="34" selection-end-line="243" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="113" column="44" selection-start-line="113" selection-start-column="44" selection-end-line="113" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/js/types/AvatarURI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>

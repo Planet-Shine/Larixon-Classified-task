@@ -3,21 +3,23 @@
 
 ui.UniversalForm = function (element, properties) {
     'use strict';
+    var self = this;
     properties = properties || {};
     this.element = element;
     this.properties = properties;
     this.model = properties['model'] || null;
 
-
-    this.render();
-    this.prebindHandlers();
-
-
-    this.form = element.querySelector('.form');
+    types.AvatarURI.getImages(function () {
+        self.render();
+        self.prebindHandlers();
 
 
-    this.attachHandlers();
-    this.attachDomHandlers();
+        self.form = element.querySelector('.form');
+
+
+        self.attachHandlers();
+        self.attachDomHandlers();
+    });
 };
 
 
@@ -236,10 +238,13 @@ ui.UniversalForm.prototype.attachHandlers = function () {
 
 ui.UniversalForm.prototype.setModel = function (newModel) {
     'use strict';
+    var self = this;
     if (this.model !== newModel) {
-        this.model = newModel;
-        this.render();
-        this.attachHandlers();
+        types.AvatarURI.getImages(function () {
+            self.model = newModel;
+            self.render();
+            self.attachHandlers();
+        });
     }
 };
 
