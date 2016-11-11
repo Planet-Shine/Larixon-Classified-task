@@ -16,16 +16,29 @@ types.AvatarURI.getImages = function (callback) {
     'use strict';
     var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest,
         xhr = new XHR();
+
     if (types.AvatarURI.images) {
         callback(types.AvatarURI.images);
     } else {
         xhr.open('GET', 'http://somon-front.pakhomov.im/front_test_4321/', true);
         xhr.onload = function () {
+            var images;
             try {
-                types.AvatarURI.images = JSON.parse(this.responseText);
+                images = JSON.parse(this.responseText);
+                if (images instanceof Array) {
+                    images = images.filter(function (image) {
+                        return new types.AvatarURI(image).isValid();
+                    });
+                } else {
+                    images = [];
+                }
+                if (!images.length) {
+                    images = types.AvatarURI.defaultImages;
+                }
             } catch (error) {
-                types.AvatarURI.images = types.AvatarURI.defaultImages;
+                images = types.AvatarURI.defaultImages;
             }
+            types.AvatarURI.images = images;
             callback(types.AvatarURI.images);
         };
         xhr.onerror = function () {
