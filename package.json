@@ -15,6 +15,7 @@
   },
   "dependencies": {},
   "scripts": {
-    "compile": "gulp styles scripts"
+    "compile": "gulp styles scripts",
+    "server" : "node ./server.js"
   }
 }
