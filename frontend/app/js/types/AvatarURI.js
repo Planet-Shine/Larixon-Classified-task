@@ -21,7 +21,11 @@ types.AvatarURI.getImages = function (callback) {
     } else {
         xhr.open('GET', 'http://somon-front.pakhomov.im/front_test_4321/', true);
         xhr.onload = function () {
-            types.AvatarURI.images = JSON.parse(this.responseText);
+            try {
+                types.AvatarURI.images = JSON.parse(this.responseText);
+            } catch (error) {
+                types.AvatarURI.images = types.AvatarURI.defaultImages;
+            }
             callback(types.AvatarURI.images);
         };
         xhr.onerror = function () {
