@@ -122,5 +122,10 @@
 
     }
 
-    document.addEventListener("DOMContentLoaded", ready);
+
+    document.addEventListener("DOMContentLoaded", function () {
+        types.AvatarURI.getImages(function () {
+            ready();
+        });
+    });
 }());

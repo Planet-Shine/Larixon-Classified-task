@@ -9,17 +9,15 @@ ui.UniversalForm = function (element, properties) {
     this.properties = properties;
     this.model = properties['model'] || null;
 
-    types.AvatarURI.getImages(function () {
-        self.render();
-        self.prebindHandlers();
+    this.render();
+    this.prebindHandlers();
 
 
-        self.form = element.querySelector('.form');
+    this.form = element.querySelector('.form');
 
 
-        self.attachHandlers();
-        self.attachDomHandlers();
-    });
+    this.attachHandlers();
+    this.attachDomHandlers();
 };
 
 
@@ -233,18 +231,15 @@ ui.UniversalForm.prototype.showAllNotValid = function () {
 
 ui.UniversalForm.prototype.attachHandlers = function () {
     'use strict';
-
+    
 };
 
 ui.UniversalForm.prototype.setModel = function (newModel) {
     'use strict';
-    var self = this;
     if (this.model !== newModel) {
-        types.AvatarURI.getImages(function () {
-            self.model = newModel;
-            self.render();
-            self.attachHandlers();
-        });
+        this.model = newModel;
+        this.render();
+        this.attachHandlers();
     }
 };
 
